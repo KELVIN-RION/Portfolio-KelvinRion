@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="Images\pp.png" alt="avatar" width="80" height="100%">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Kelvin Rion">Kelvin Rion</h1>
+                    <p class="title">Data Analyst</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:rio.kelvin04@gmail.com" class="contact-link">rio.kelvin04@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+919150825579" class="contact-link">+91 9150 825 579</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="2004-03-30">March 30, 2004</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Dindigul , TamilNadu, India</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item"><a href="https://www.linkedin.com/in/kelvin-rion/" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://github.com/KELVIN-RION" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
+                    <!--<li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>-->
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Blog</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>I am a flexible, forward-thinking professional passionate about solving complex challenges through technology. I thrive on creating innovative solutions that deliver real impact</p>
+                    <p>My goal is to apply my expertise in data analysis and AI-driven development to create secure, intelligent, and meaningful solutions. I am committed to continuous learning, leading impactful projects, and driving technological innovation. I aim to work in a dynamic environment that values creativity, risk mitigation, and secure digital systems.</p>
+                </section>
+
+                <section class="service">
+                    <h3 class="h3 service-title">What I'm Interested in!</h3>
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/4389jZkP/icon-design.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Data Analyst</h4>
+                                <p class="service-item-text">I analyse large datasets to extract meaningful insights that drive informed decisions. Skilled in data visualization, reporting, and statistical analysis.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/ZqgqrqzG/icon-dev.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">ML Creator </h4>
+                                <p class="service-item-text">I design and train machine learning models to solve real-world problems. Focused on applying AI for automation and smarter decision-making.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/xjLdzYxZ/icon-app.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">SQL Developer</h4>
+                                <p class="service-item-text">I manage and query databases to ensure accurate, efficient data storage and retrieval. Proficient in SQL for building robust, scalable solutions..</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/0NL8zHpx/icon-photo.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">IOT / Product Developer</h4>
+                                <p class="service-item-text">I design and develop innovative IoT products that integrate AI and machine learning. Experienced in prototyping and delivering connected solutions.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+<section class="testimonials">
+  <h3 class="h3 testimonials-title">Certifications</h3>
+  <ul class="clients-list has-scrollbar">
+    <li class="testimonials-item" data-images='["Images/coursera.png", "certi/cc1.png", "certi/cc2.png", "certi/cc3.png", "certi/cc4.png", "certi/cc5.png", "certi/cc6.png", "certi/cc7.png", "certi/cc8.png"]'>
+      <div class="content-card">
+        <a href="#" class="cert-link">
+          <img src="Images/coursera.png" width="200" alt="Coursera">
+        </a>
+      </div>
+    </li>
+
+    <li class="testimonials-item" data-images='["Images/udemy.png", "certi/ud1.png","certi/ud2.png"]'>
+      <div class="content-card">
+        <a href="#" class="cert-link">
+          <img src="Images/udemy.png" width="220" alt="Udemy">
+        </a>
+      </div>
+    </li>
+
+    <li class="testimonials-item" data-images='["Images/tcsion.png", "certi/tcs1.png"]'>
+      <div class="content-card">
+        <a href="#" class="cert-link">
+          <img src="Images/tcsion.png" width="160" alt="TCS iON">
+        </a>
+      </div>
+    </li>
+
+    <li class="testimonials-item" data-images='["Images/nptel.png", "certi/np1.png", "certi/np2.png"]'>
+      <div class="content-card">
+        <a href="#" class="cert-link">
+          <img src="Images/nptel.png" width="210" alt="NPTEL">
+        </a>
+      </div>
+    </li>
+
+    <li class="testimonials-item" data-images='["Images/spokentut-Photoroom.png", "certi/sp1.png", "certi/sp2.png", "certi/sp3.png"]'>
+      <div class="content-card">
+        <a href="#" class="cert-link">
+          <img src="Images/spokentut-Photoroom.png" width="200" alt="Spoken Tutorial">
+        </a>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<!-- Popup Modal -->
+<div class="popup-overlay" id="popup-overlay">
+  <div class="popup-box">
+    <span class="close-btn" id="popup-close">&times;</span>
+    <div id="popup-content"></div>
+  </div>
+</div>
+    
+  </ul>
+</section>
+
+                <div class="modal-container " data-modal-container>
+                    <div class="overlay " data-overlay></div>
+
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Daniel Lewis" width="80" data-modal-img>
+                            </figure>
+
+                            <img src="https://i.postimg.cc/mZ00RwX7/icon-quote.png" alt="quote icon">
+                        </div>
+                    </section>
+                </div>
+
+                <section class="clients">
+                    <h3 class="h3 clients-title">Badges</h3>
+
+                    <ul class="clients-list has-scrollbar">
+                        <li class="clients-item">
+                             <p class="contact-title">Google Data Analytics Certificate </p>
+                            <a href="https://www.credly.com/badges/0b310703-cbff-40cc-b8e6-cf9311e7b5d7/public_url"><img src="Images/cc.png" alt="logo"><height=""></height></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <p class="contact-title">Getting Started with Big Data Analytics</p>
+                            <a href="https://www.futureskillsprime.in/iDH/user/user_badge/view/32914_BG_0927d6d6-5bc4-11f0-bdec-005056b48b54"><img src="Images\cc2.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <p class="contact-title">An Overview of Big Data Analytics</p>
+                            <a href="https://www.futureskillsprime.in/iDH/user/user_badge/view/32914_BG_025983a7-5bc2-11f0-bdec-005056b48b54"><img src="Images\cc2.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <p class="contact-title">Application of Big Data Analytics</p>
+                            <a href="https://www.futureskillsprime.in/iDH/user/user_badge/view/32914_BG_6d0a08e7-5bc1-11f0-bdec-005056b48b54"><img src="Images\cc2.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <p class="contact-title">Tips and Top ChatGPT Prompt Badge</p>
+                            <a href="https://www.futureskillsprime.in/iDH/user/user_badge/view/32914_BG_f82b04f1-5c85-11f0-bdec-005056b48b54"><img src="Images\cc2.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <p class="contact-title">Database Management for Data Science</p>
+                            <a href="https://www.futureskillsprime.in/iDH/user/user_badge/view/32914_BG_cbe9e2c3-5bc2-11f0-bdec-005056b48b54"><img src="Images\cc2.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <p class="contact-title">An Overview of Artificial Intelligence</p>
+                            <a href="https://www.futureskillsprime.in/iDH/user/user_badge/view/32914_BG_adb912b3-5952-11f0-bdec-005056b48b54"><img src="Images\cc2.png" alt="logo"></a>
+                        </li>
+                        
+
+                        <li class="clients-item">
+                            <p class="contact-title">An Overview of Distributed Systems</p>
+                            <a href="https://www.futureskillsprime.in/iDH/user/user_badge/view/32914_BG_58f4a46c-5c86-11f0-bdec-005056b48b54"><img src="Images\cc2.png" alt="logo"></a>
+                        </li>
+                    </ul>
+                </section>
+
+            </article>
+            
+            <article class="resume " data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">PSNA College of Engineering and Technology</h4>
+                            <span>2022 - 2026</span>
+                            <p class="timeline-text">Pursuing B.Tech in Artificial Intelligence and Data Science with a strong academic record (76%). Focused on machine learning, data analytics, and IoT integration. Engaged in hands-on projects and hackathons to solve practical challenges. Built leadership skills through team projects and club roles.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Soundararaja Vidyalaya CBSE</h4>
+                            <span>2021 - 2022</span>
+                            <p class="timeline-text">Computer Science stream with 70% overall. Studied core programming concepts, problem-solving, and computational thinking. Participated in school-level competitions and tech events. Developed teamwork and communication skills through collaborative projects.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Soundararaja Vidyalaya CBSE</h4>
+                            <span>2019 - 2020</span>
+                            <p class="timeline-text">Achieved 72% in final exams with strong foundation in mathematics and science. Developed disciplined study habits and a problem-solving mindset. Participated in school activities that fostered leadership and responsibility</p>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Graspear Solutions</h4>
+                            <span>July 2025 - Present</span>
+                            <p class="timeline-text">Working as a Product Developer focusing on innovation and updates for IoT projects. Collaborate with cross-functional teams to design and prototype new products. Integrate AI and ML features to enhance functionality and user experience. Ensure timely delivery of reliable, effective IoT solutions.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Gleemen Global</h4>
+                            <span>Jan 2025 - Mar 2025</span>
+                            <p class="timeline-text">Completed an intensive UI/UX Internship with hands-on website creation and maintenance. Worked on UI/UX design, domain selection, development, and testing. Collaborated with professionals to optimize user experiences. Learned best practices in user-centric design and long-term site support.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Groceda</h4>
+                            <span>2024 - 2025</span>
+                            <p class="timeline-text">Worked as a Database Manager overseeing inventory stock, customer orders, and delivery data. Ensured data accuracy and streamlined daily reporting processes. Supported decision-making through clear, organized data management. Implemented practices to improve data reliability and accessibility.</p>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="skill">
+                    <h3 class="h3 skills-title">My Skills</h3>
+
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Python</h5>
+                                <data value="70">70%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 70%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Java</h5>
+                                <data value="35">35%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 35%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">SQL</h5>
+                                <data value="60">60%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 60%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Data Analytics & Data Visualization</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">ML Model Developer</h5>
+                                <data value="60">60%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 60%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">IOT & Networking</h5>
+                                <data value="85">85%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 85%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">AI & Prompt</h5>
+                                <data value="90">90%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 90%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">LINUX</h5>
+                                <data value="85">85%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 90%;"></div>
+                            </div>
+
+                            <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Team Leadership</h5>
+                                <data value="95">95%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 95%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Problem-Solving</h5>
+                                <data value="90">90%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 90%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Project Management</h5>
+                                <data value="95">95%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 95%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="portfolio" data-page="portfolio">
+  <header>
+    <h2 class="h2 article-title">Portfolio</h2>
+  </header>
+
+  <section class="projects">
+    <ul class="filter-list">
+      <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+      <li class="filter-item"><button data-filter-btn>Web Design</button></li>
+      <li class="filter-item"><button data-filter-btn>Applications</button></li>
+      <li class="filter-item"><button data-filter-btn>Web Development</button></li>
+    </ul>
+
+
+    <div class="filter-select-box">
+      <button class="filter-select" data-select>
+        <div class="select-value" data-select-value>Select Category</div>
+        <div class="select-icon"><ion-icon name="chevron-down"></ion-icon>
+        </div>
+      </button>
+
+      <ul class="select-list">
+        <li class="select-item"><button data-select-item>All</button></li>
+        <li class="select-item"><button data-select-item>Web Design</button></li>
+        <li class="select-item"><button data-select-item>Applications</button></li>
+        <li class="select-item"><button data-select-item>Web Development</button></li>
+      </ul>
+    </div>
+
+
+    <section class="portfolio">
+    <ul class="project-list">
+      <li class="project-item active" data-filter-item data-category="web development" data-gallery='["certi/cc2.png", "certi/cc3.png", "certi/cc5.png"]' >
+          <figure class="project-img carousel" data-interval="1500">
+            <img src="https://media.assettype.com/outlookindia/import/public/uploads/articles/2019/2/16/lambo_1_20190216.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100" alt="Project 1" class="carousel-frame active">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv5gmeyMZ7xZmrBd0MUM__BwwRA9_B_PE4LWTHB57qloiVFv6eFPOzbiXyfbB0ncuJ70w&usqp=CAU" alt="Project 1" class="carousel-frame">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdmbIB0UlVIIGr20f0_jzSuyYjjWehNk3LSbAwraW3oBmt4i79EkD0-QtSkWsV0KDfvoU&usqp=CAU" alt="Project 1" class="carousel-frame">
+          </figure>
+          <h3 class="project-title">Lamborghini</h3>
+          <p class="project-category">Web Development</p>
+        </a>
+      </li>
+      <li class="project-item active" data-filter-item data-category="web development" data-gallery='["certi/cc2.png", "certi/cc3.png", "certi/cc5.png"]' >
+          <figure class="project-img carousel" data-interval="1500">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsI3YgJlsdZHs47_9ztNIxAdcKXlD27Qa69cqRrlcwsiHHz_eobI1nTLwUqygp20GhlmE&usqp=CAU" alt="Project 2" class="carousel-frame active">
+            <img src="https://www.topgearmag.in/uploads/News/Image/1728556472-1.jpg" alt="Project 2" class="carousel-frame">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_h8TZFdZK1EhRrlCvr5YjxWudLkFiU04whg&s" alt="Project 2" class="carousel-frame">
+          </figure>
+          <h3 class="project-title">BMW</h3>
+          <p class="project-category">Web Development</p>
+        </a>
+      </li>
+      <li class="project-item active" data-filter-item data-category="web development" data-gallery='["certi/cc2.png", "certi/cc3.png", "certi/cc5.png"]' >
+          <figure class="project-img carousel" data-interval="1500">
+
+            <img src="https://vehicle-images.dealerinspire.com/ae87-110006186/SCATV2C01RU225854/a2635c92a47073c0980df6b8b9c1f98b.jpg" alt="Project 3" class="carousel-frame active">
+            <img src="https://static.independent.co.uk/2024/08/29/12/P90513796_highRes_rolls-royce-spectre.jpg?width=1200&height=630&fit=crop" alt="Project 3" class="carousel-frame">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvoX9D5E62nFC201gS2AwGhSDhqJ53_9WMOdQOOew-1En_XHaJ2BeJF0QJ58cnFQbjneA&usqp=CAU" alt="Project 3" class="carousel-frame">
+          </figure>
+          <h3 class="project-title">Rolls Royce</h3>
+          <p class="project-category">Web Development</p>
+        </a>
+      </li>
+<!--
+      <li class="project-item active" data-filter-item data-category="applications" data-gallery='["certi/cc2.png", "certi/cc3.png", "certi/cc5.png"]'  >
+          <figure class="project-img carousel" data-interval="2000">
+            <img src="https://via.placeholder.com/300x200?text=Image+1" alt="Project 1" class="carousel-frame active">
+            <img src="https://via.placeholder.com/300x200?text=Image+2" alt="Project 1" class="carousel-frame">
+            <img src="https://via.placeholder.com/300x200?text=Image+3" alt="Project 1" class="carousel-frame">
+          </figure>
+          <h3 class="project-title">Sample Project</h3>
+          <p class="project-category">Web Development</p>
+        </a>
+      </li>
+      <li class="project-item active" data-filter-item data-category="web development" data-gallery='["certi/cc2.png", "certi/cc3.png", "certi/cc5.png"]'  >
+          <figure class="project-img carousel" data-interval="2000">
+            <img src="https://via.placeholder.com/300x200?text=A1" alt="Project 2" class="carousel-frame active">
+            <img src="https://via.placeholder.com/300x200?text=A2" alt="Project 2" class="carousel-frame">
+            <img src="https://via.placeholder.com/300x200?text=A3" alt="Project 2" class="carousel-frame">
+          </figure>
+          <h3 class="project-title">Buggati</h3>
+          <p class="project-category">Web Development</p>
+        </a>
+      </li>
+
+            <li class="project-item active" data-filter-item data-category="web development" data-gallery='["certi/cc2.png", "certi/cc3.png", "certi/cc5.png"]'  >
+          <figure class="project-img carousel" data-interval="2000">
+            <img src="https://via.placeholder.com/300x200?text=A1" alt="Project 2" class="carousel-frame active">
+            <img src="https://via.placeholder.com/300x200?text=A2" alt="Project 2" class="carousel-frame">
+            <img src="https://via.placeholder.com/300x200?text=A3" alt="Project 2" class="carousel-frame">
+          </figure>
+          <h3 class="project-title">Koeinsegg</h3>
+          <p class="project-category">Web Development</p>
+        </a>
+      </li>
+
+    </ul>
+  </section>
+-->
+  
+<!-- Portfolio Popup Modal -->
+<div class="portfolio-popup-overlay" id="portfolio-popup">
+  <div class="portfolio-popup-box">
+    <span class="portfolio-popup-close" id="portfolio-popup-close">&times;</span>
+    <div class="portfolio-thumbnails" id="portfolio-thumbnails"></div>
+    <div class="portfolio-preview" id="portfolio-preview"></div>
+  </div>
+</div>
+
+    
+
+      <!-- Lightbox overlay -->
+        <div class="lightbox-overlay" id="lightbox">
+             <img id="lightbox-img" src="" alt="project full view">
+        </div>
+    </ul>
+  </section>
+</article>
+
+
+
+
+            <article class="blog " data-page="blog">
+                <header>
+                    <h2 class="h2 article-title">Blog</h2>
+                </header>
+
+                <section class="blog-posts">
+                    <ul class="blog-posts-list">
+                        <li class="blog-post-item">
+                            <a href="https://youtu.be/UhL84DoNy_k">
+                                    <figure class="blog-banner-box">
+                                        <img src="Images\visionx.png" alt="Design conferences in 2024" loading="lazy">
+                                    </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Project</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2024-02-23">Sept 10, 2024</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Vision X</h3>
+                                    
+                                    <p class="blog-text">In 2024, Our Team VISION X has selected for semifinal round in KIIC coimbatore</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="https://i.postimg.cc/QC7qFDMs/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                                </figure>
+
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Internship</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2024-01-29">Jan 16, 2024</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Intern at Gleemen Global</h3>
+                                    <p class="blog-text">During the Winter arc, we have gained experience on web development and UI/UX with help of professional employees at Gleeman Global, Madurai.</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="https://i.postimg.cc/W1T71QcL/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Project</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2023-12-20">Mar 27, 2024</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Vision X</h3>
+                                    <p class="blog-text">As a stepping stone for creating our first-ever ML based project for blind people, first level project competition at Velammal Institution, Madurai</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="https://i.postimg.cc/2S0n8yxh/blog-4.jpg" alt="2023 UI interactions" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Intern</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2023-11-29">Nov 29, 2023</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Groceda Base</h3>
+                                    <p class="blog-text">As we move into 2024, 2023 was marked by the rapidly evolution of the landscape of UI interactions, driven by advancements in technology and user expectations. Dive with me in this text to see the main areas changed in this year.</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="https://i.postimg.cc/YCCmVkw9/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Internship</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2023-11-12">Nov 12, 2023</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Graspear Solutions</h3>
+                                    <p class="blog-text">In the realm of design, spacing is often an overlooked yet crucial element that can significantly impact the overall aesthetic and functionality of a composition. This post will emphasize the importance of white space, margins, and padding in creating visually appealing and effective designs.</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="Images/mm.jpg" alt="Design digest #79" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Project</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2023-10-20">Oct 20, 2023</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Smart Agri- Tech For Urban Micro Farming</h3>
+                                    <p class="blog-text">As a part of our final year project, We have signed up to a sMini project on the handling of urban plantion with help of our website with ai assitance and iot device</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="contact " data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d981.1793428078741!2d77.98044526961988!3d10.364468318582498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDIxJzUyLjEiTiA3N8KwNTgnNTEuOSJF!5e0!3m2!1sen!2sin!4v1752122921025!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                    </figure>
+                </section>
+
+<form id="contact-form" action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
+<input type="hidden" name="access_key" value="689913ba-803a-4f85-a4ab-3b48db5bc218">
+
+  <div class="input-wrapper">
+    <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+    <input type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
+  </div>
+
+  <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+  <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+  <button class="form-btn" type="submit" data-form-btn>
+    <ion-icon name="paper-plane"></ion-icon>
+    <span>Send Message</span>
+  </button>
+</form>
+
+<div id="popup-message" style="display:none; padding: 10px; background: hsl(45, 100%, 72%); color: rgb(0, 0, 0); margin-top: 15px; border-radius: 5px;">
+Message Sent!
+</div>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
